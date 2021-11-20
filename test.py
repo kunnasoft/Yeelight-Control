@@ -30,7 +30,7 @@ class Test(object):
             self.Service.SetBrightness(100, id = 2)
             time.sleep(sleepTime)
 
-            self.Service.StartFlow(1)
+            self.Service.StartFlowEverything(1)
             time.sleep(sleepTime)
             
             self.Service.TurnOff(id = 1)
